@@ -1,0 +1,11 @@
+print("Hardik".upper())
+print("Hardik".lower())
+
+print("hardik singh".title())
+
+print("hardik".islower())
+
+name = "Hardik"
+
+print("ard" in name)
+
