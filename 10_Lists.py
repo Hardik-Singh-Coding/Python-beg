@@ -55,3 +55,27 @@ list_1.append("watermelon")
 list_1.insert(1, "cherry")
 list_1.extend(list_2) 
 print(list_1)
+
+
+
+# Removing items
+list_1.remove("apple")
+print(list_1)
+list_1.pop(1)
+print(list_1)
+list_1.pop()
+print(list_1)
+del list_1[0]
+print(list_1)
+
+list_3.clear()
+print(list_3)
+
+
+
+# Deleting a list
+del list_2
+# print(list_2)
+
+
+

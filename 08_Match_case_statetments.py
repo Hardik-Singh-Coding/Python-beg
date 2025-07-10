@@ -6,4 +6,3 @@ match x:
     case 1: print("x is one")
 
     case _: print(f"Number is {x}")
-
