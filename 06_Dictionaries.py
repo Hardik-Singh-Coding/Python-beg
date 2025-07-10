@@ -73,3 +73,69 @@ print(person['name'])
 
 # Changing the value of a key
 person["name"] = "John"
+
+
+
+
+# Nested dictionaries 
+myfamily = {
+    "Mom":{
+        "name": "Emily",
+        "age": 30
+    },
+
+    "Dad": {
+        "name": "Coby",
+        "age": 37
+    },
+
+    "Me": {
+        "name": "Tara",
+        "age": 10
+    },
+
+    "Brother": {
+        "name": "Jimmy",
+        "age": 12
+    }
+}
+
+
+
+
+
+car1 = {"name": "Mustang", "Company": "Ford"}
+car2 = {"name": "Viper", "Company": "Dodge"}
+car3 = {"name": "Hector", "Company": "MG"}
+
+Dealership = {
+    "car_Ford": car1,
+    "car_Dodge": car2,
+    "car_MG": car3
+}
+
+print(Dealership["car_Ford"]["Company"])
+
+for x, value in Dealership.items():
+    print(x + ":")
+    for y in value:
+        print(f"y : {value[y]}")
+
+
+
+
+
+# dict.fromkeys(x,y) method returns a dictionary with the specified keys (x) and the specified (single) value (y)
+x = ('key1', 'key2', 'key3')
+y = 20
+
+newdict = dict.fromkeys(x,y)
+print(newdict)
+
+
+
+
+# .setdefault(x,y) method returns the value of the key (x), if the key doesn't exist, it is added to the dictionary with the value y
+a = newdict.setdefault('key4', '30')
+print(a)
+print(newdict)
