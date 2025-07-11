@@ -76,6 +76,3 @@ print(list_3)
 # Deleting a list
 del list_2
 # print(list_2)
-
-
-

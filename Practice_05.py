@@ -1,3 +1,5 @@
+""" Question - Count the number of vowels and consonants """
+
 Phrase = input("Enter a phrase: ")
 vowels = ['a','e','i','o','u','A','E','I','O','U']
 

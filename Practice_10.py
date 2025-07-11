@@ -1,5 +1,5 @@
-""" Question: Given a list arr, replace every element with the greatest element among the elements to its right, and replace the last 
-element with -1. """
+""" Question: Given a list arr, replace every element with the greatest element among the elements to its right, 
+and replace the last element with -1. """
 
 def replace_elements(arr: list[int]) -> list[int]:
     max_so_far = -1

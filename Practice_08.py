@@ -1,3 +1,6 @@
+""" Question - Given a list of integers nums, return a new list running_sum where running_sum[i] is the sum of 
+all elements from index 0 to i in nums. """
+
 def running_sum(nums: list[int]) -> list[int]:
     result = []
     sum = 0

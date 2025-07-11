@@ -1,3 +1,5 @@
+""" Question - Count number of true values in a list """
+
 def count_trues(b_list: list) -> int: 
     # global count 
     # count = 0
