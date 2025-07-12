@@ -16,3 +16,6 @@ def move_zeros(nums: list[int]) -> None:
 
 nums = [0, 1, 0, 3, 12]
 move_zeros(nums)
+
+
+""" Mistake - Couldn't think of the logic """
