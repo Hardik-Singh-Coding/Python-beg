@@ -9,3 +9,6 @@ def is_palindrome(s: str) -> bool:
 
 string1 = "Racecar"
 print(is_palindrome(string1))
+
+
+""" Mistake - Didn't know about string slicing """

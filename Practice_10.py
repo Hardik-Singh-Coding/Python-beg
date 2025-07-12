@@ -13,3 +13,6 @@ def replace_elements(arr: list[int]) -> list[int]:
 
 arr = [17, 18, 5, 4, 6, 1]
 print(replace_elements(arr))
+
+
+""" Mistake - Couldn't loop from right to left """
